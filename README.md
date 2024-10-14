@@ -103,3 +103,13 @@ python -m pytest test.py
 ## API Documentation
 
 After running the application, you can access the Swagger UI documentation at http://localhost:8000/docs or the ReDoc documentation at http://localhost:8000/redoc.
+
+## `.env` contents
+
+```
+DB_USERNAME='sid'
+DB_PASSWORD='sample123'
+DB_HOST='localhost'
+DB_PORT='3306'
+DB_NAME='spamCheck'
+```
