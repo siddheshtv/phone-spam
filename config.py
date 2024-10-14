@@ -1,0 +1,2 @@
+SECRET_KEY = "sampler123"
+ALGORITHM = "HS256"
