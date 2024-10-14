@@ -6,3 +6,4 @@ bcrypt
 python-jose
 jose
 pyjwt
+passlib

@@ -3,7 +3,7 @@ from pydantic import BaseModel, EmailStr, Field
 from sqlalchemy.orm import Session
 from ..db.dbops import get_db, check_user_exists
 from models import Contact, pwd_context, GlobalBlackList
-from passlib.context import CryptContext
+# from passlib.context import CryptContext
 import uuid
 
 userRouter = APIRouter()
